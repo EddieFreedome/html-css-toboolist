@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+h1{
+    display: inline-block;
+
+}
+header {
+    background-color: white;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-top: 1px solid lightgrey;
+    height: 70px;        
+}
+
+.banner-align {
+    vertical-align: middle;
+}
