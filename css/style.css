@@ -23,6 +23,25 @@ body{
     background-color: rgba(245, 245, 245, 0.705);
 }
 
+main{
+    font-size: 15px;
+}
+
+h2{
+    margin-left: 50px;
+    padding-top: 40px;
+    
+    
+}
+
+li{
+    list-style: none;
+    margin-left: 90px;
+    padding-top: 7px;
+    margin-bottom: 7px;
+}
+
+
 /*
 button { 
     border-radius: 15px;
@@ -59,6 +78,20 @@ button {
     padding-right: 15px;
 }
 
+.frecce{
+    font-size: 15px;
+    padding-right: 5px;
+}
+
+.mark-ok{
+    color: green;
+    font-size: 10px;
+}
+
+.mark-no{
+    color: red;
+    font-size: 10px;
+}
 /*ID*/
 #top-main {
     margin-top: 60px;
