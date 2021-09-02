@@ -1,15 +1,16 @@
+/***** Generici *****/
+
 * {
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
     font-family: sans-serif;
 }
- /*Generici*/
 
 h1{
     display: inline-block;
-
 }
+
 header {
     background-color: white;
     margin-top: 10px;
@@ -31,7 +32,11 @@ h2{
     margin-left: 70px;
     padding-top: 40px;
     color: rgba(0, 0, 0, 0.788);
-       
+}
+
+ul{
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.700)
 }
 
 li{
@@ -42,37 +47,19 @@ li{
     margin-bottom: 10px;
 }
 
-ul{
-    font-weight: 600;
-    color: rgba(0, 0, 0, 0.700)
-}
-
-span{
+span {
     display: inline-block;
-    padding-left: 2px;
-    margin-right: 10px;
-}
-/*
-button { 
-    border-radius: 15px;
-    border-style: none;
-    width: 100px;
-    height: 30px;
-    margin-left: 100px;
-    font-size: 15px;
-    color: white;
-    font-weight: bold;
     
 }
-*/
 
-/*Classi*/
+
+/***** Classi *****/
 
 .banner-align {
     vertical-align: middle;
 }
 
-.blocco-centrale{
+.blocco-centrale {
     margin: auto;
     background-color: white;
     width: 50%;
@@ -81,24 +68,23 @@ button {
 
 .bottoni-top {   /*primi due pulsanti*/
     font-size: 15px;
-    border-radius: 5px;
+    font-weight: 600;
+    border-radius: 6px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 15px;
     padding-right: 15px;
 }
 
-.frecce{
+.frecce {
     display: inline-block;
-    width: 0;
-    height: 0;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
     border-top: 6px solid rgba(0, 0, 0, 0.788);
     padding-bottom: 3px;
 }
 
-.mark-ok{
+.mark-ok {
     color: green;
     border: 1px solid green;
     font-size: 10px;
@@ -108,9 +94,10 @@ button {
     line-height: 10px;
     font-weight: bold;
     padding: 1px;
+    margin-right: 10px;
 }
 
-.mark-no{
+.mark-no {
     border-radius: 50%;
     width: 14px;
     font-size: 10px;
@@ -120,10 +107,41 @@ button {
     text-align: center;
     line-height: 10px;
     padding: 1px;
+    margin-right: 10px;
 }
 
+.etichette { 
+    color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    margin-left: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
 
-/*ID*/
+.editorial {
+    color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    margin-left: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    background-color: rgb(71, 166, 255);
+    border-color: rgb(71, 166, 255);
+}
+
+/***** ID *****/
+
 #top-main {
     margin-top: 60px;
     padding-top: 20px;
@@ -132,12 +150,11 @@ button {
 }
 
 #middle-main {
-    height: 600px;
+    height: 620px;
     margin-top: 3px;
 }
 
-
-#bottone1-top{
+#bottone1-top {
     background-color: rgb(71, 166, 255);
     color: white;
     border-width: 1px;
@@ -145,13 +162,35 @@ button {
     border-color: rgb(71, 166, 255);
 }
 
-#bottone2-top{
+#bottone2-top {
     background-color: white;
     border-style: solid;
     border-width: 1px;
-    border-color: lightslategray;
-    color: lightslategray;
+    border-color: rgba(119, 136, 153, 0.753);
+    color: rgba(119, 136, 153, 0.753);
 }
 
-/******************************************************************/
+/* tutte le etichette colorate tranne Editorial: e' una .classe*/
+#Q1goals {
+
+    background-color: rgb(164, 44, 233);
+    border-color: rgb(164, 44, 233);
+}
+#Recruiting {
+    background-color: rgb(68, 224, 133);
+    border-color: rgb(68, 224, 133);
+}
+#Mobile {
+    background-color: orange;
+    border-color: orange;
+}
+#Website {
+    background-color: plum;
+    border-color: plum;
+}
+#Sales {
+    background-color: rgb(142, 250, 0);
+    border-color: rgb(142, 250, 0);
+}
+/**********************************************************/
 
